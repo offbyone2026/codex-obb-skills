@@ -1,0 +1,53 @@
+{
+  "skills": {
+    "game-developer": {
+      "name": "game-developer",
+      "source": "Jeffallan/claude-skills",
+      "scope": "通用游戏开发（Unity/Unreal），性能优化/多人联网",
+      "trigger": "性能问题|架构设计|多人联机|引擎最佳实践",
+      "files": 5
+    },
+    "godot-code-gen": {
+      "name": "godot-code-gen",
+      "source": "alexmeckes/godot-claude-skills",
+      "scope": "GDScript 最佳实践（类型提示/信号/状态机/tweens）",
+      "trigger": "编写 GDScript|状态机|信号连接"
+    },
+    "godot-scene-design": {
+      "name": "godot-scene-design",
+      "source": "alexmeckes/godot-claude-skills",
+      "scope": "场景文件 .tscn、节点层级、关卡布局",
+      "trigger": "设计场景|布局关卡|节点层级"
+    },
+    "godot-shader": {
+      "name": "godot-shader",
+      "source": "alexmeckes/godot-claude-skills",
+      "scope": "2D/3D 特效与后处理着色器",
+      "trigger": "编写 shader|视觉特效|后处理"
+    },
+    "godot-interactive": {
+      "name": "godot-interactive",
+      "source": "alexmeckes/godot-claude-skills",
+      "scope": "godot-mcp + AI Bridge 持续 inspect/edit/run/debug 工作流",
+      "trigger": "编辑器联动调试|自动化改场景"
+    },
+    "game-studios": {
+      "name": "game-studios",
+      "source": "donchitos/claude-code-game-studios",
+      "scope": "全流程工作室技能集（49 agents/73 skills，Godot/Unity/Unreal）",
+      "trigger": "全流程开发|多环节任务|工作室模式"
+    },
+    "game-development-orchestrator": {
+      "name": "game-development-orchestrator",
+      "source": "davila7/claude-code-templates",
+      "scope": "按平台/维度路由（2d/3d/art/audio/design/mobile/multiplayer/pc/vr-ar/web）",
+      "trigger": "平台专项开发|跨维度任务"
+    },
+    "skills-gamedev": {
+      "name": "skills-gamedev",
+      "source": "poorvith-mp/skills-gamedev",
+      "scope": "26 项工程技能（blender 建模动画/构建流水线/性能/反作弊/版本控制/变现）",
+      "trigger": "建模|构建|性能|反作弊|版本控制"
+    }
+  }
+}
