@@ -20,6 +20,14 @@ Codex 官方 **Agent Skills** 机制：每次会话自动把已安装技能的 n
 | [skills/performance-optimization/SKILL.md](skills/performance-optimization/SKILL.md) | 性能剖析与优化（Godot/Unity） |
 | [skills/steam-release/SKILL.md](skills/steam-release/SKILL.md) | Steam 商店页/构建/上传/发布 |
 | [skills/indie-project-planning/SKILL.md](skills/indie-project-planning/SKILL.md) | GDD/里程碑/任务拆解/风险登记 |
+| [skills/combat-system-design/SKILL.md](skills/combat-system-design/SKILL.md) | 战斗系统：攻击图/命中检测/伤害管线/打击感/平衡 |
+| [skills/multiplayer-networking/SKILL.md](skills/multiplayer-networking/SKILL.md) | 多人联机：权威服务器/同步/延迟补偿/反作弊 |
+| [skills/godot-4-specialist/SKILL.md](skills/godot-4-specialist/SKILL.md) | Godot 4 专精（架构/信号/状态机/2D 像素/C#） |
+| [skills/unity-ecs-specialist/SKILL.md](skills/unity-ecs-specialist/SKILL.md) | Unity ECS/DOTS 数据导向架构 |
+| [skills/engine-selection/SKILL.md](skills/engine-selection/SKILL.md) | 引擎与技术栈选型决策树 |
+| [skills/game-jam-workflow/SKILL.md](skills/game-jam-workflow/SKILL.md) | Game Jam 48-72h 冲刺流程与提交清单 |
+| [skills/narrative-design/SKILL.md](skills/narrative-design/SKILL.md) | 叙事/剧情/对话/世界观设计 |
+| [skills/shader-and-vfx/SKILL.md](skills/shader-and-vfx/SKILL.md) | 着色器与特效（GLSL/后处理/粒子/Instancing） |
 
 ## 参考文档（根目录 md）
 

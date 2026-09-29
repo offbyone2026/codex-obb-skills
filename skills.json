@@ -118,6 +118,62 @@
       "scope": "GDD 骨架/里程碑(PreProd-Alpha-Beta-Gold)/任务拆解/风险登记（5 人团队）",
       "trigger": "项目规划|GDD|里程碑|排期|需求拆分|范围",
       "package": "skills/indie-project-planning/SKILL.md"
+    },
+    "combat-system-design": {
+      "name": "combat-system-design",
+      "source": "OffByOne Studio 自研（参考 Firzus/agent-skills combat + mcp-game-helper）",
+      "scope": "战斗系统：攻击图/命中检测(Hitbox)/伤害管线/打击感/连招/数据驱动平衡",
+      "trigger": "战斗|伤害|命中|hitbox|打击感|连招|平衡|combat",
+      "package": "skills/combat-system-design/SKILL.md"
+    },
+    "multiplayer-networking": {
+      "name": "multiplayer-networking",
+      "source": "OffByOne Studio 自研（参考 rivet-dev/skills 多人联机模式）",
+      "scope": "多人联机：权威服务器/tick/快照同步/兴趣管理/延迟补偿/反作弊",
+      "trigger": "联机|多人|netcode|同步|匹配|matchmaking|延迟补偿|反作弊",
+      "package": "skills/multiplayer-networking/SKILL.md"
+    },
+    "godot-4-specialist": {
+      "name": "godot-4-specialist",
+      "source": "OffByOne Studio 自研（参考 wshobson/agents 与既有 godot-claude-skills）",
+      "scope": "Godot 4 专精：场景架构/信号/状态机/2D 像素渲染/C#(Mono)工程模式",
+      "trigger": "Godot|GDScript|场景架构|信号|状态机|tilemap|像素渲染|Mono|C#",
+      "package": "skills/godot-4-specialist/SKILL.md"
+    },
+    "unity-ecs-specialist": {
+      "name": "unity-ecs-specialist",
+      "source": "OffByOne Studio 自研（参考 wshobson/agents ECS 模式）",
+      "scope": "Unity ECS/DOTS：数据导向/Job/Burst/批处理/迁移策略",
+      "trigger": "Unity|ECS|DOTS|Burst|JobSystem|数据导向|批量实体",
+      "package": "skills/unity-ecs-specialist/SKILL.md"
+    },
+    "engine-selection": {
+      "name": "engine-selection",
+      "source": "OffByOne Studio 自研（参考 thedixitjain 选型库 + 本工作室栈）",
+      "scope": "引擎/技术栈选型决策树（DOM 混合/Phaser/Pixi/Three/Babylon/Ink/Godot/Unity）",
+      "trigger": "引擎选择|技术选型|which engine|用什么引擎|选型",
+      "package": "skills/engine-selection/SKILL.md"
+    },
+    "game-jam-workflow": {
+      "name": "game-jam-workflow",
+      "source": "OffByOne Studio 自研（参考 AlterLab GameForge jam 流程 + itch-jams-mcp）",
+      "scope": "Game Jam 48-72h 冲刺：时间分配/范围纪律/分工/itch.io 提交清单",
+      "trigger": "Game Jam|游戏开发挑战赛|48小时|72小时|jam|冲刺|itch",
+      "package": "skills/game-jam-workflow/SKILL.md"
+    },
+    "narrative-design": {
+      "name": "narrative-design",
+      "source": "OffByOne Studio 自研（参考 donchitos team-narrative / AlterLab Narrative）",
+      "scope": "叙事设计：节拍/角色/分支后果/世界观术语表/对话规范",
+      "trigger": "剧情|叙事|对话|世界观|角色设定|narrative|story|dialogue",
+      "package": "skills/narrative-design/SKILL.md"
+    },
+    "shader-and-vfx": {
+      "name": "shader-and-vfx",
+      "source": "OffByOne Studio 自研（参考 tuomashatakka 与既有 godot-shader）",
+      "scope": "着色器与特效：GLSL/后处理(bloom/godrays/glitch)/粒子/Instancing/性能",
+      "trigger": "shader|GLSL|着色器|特效|VFX|后处理|bloom|粒子|流光",
+      "package": "skills/shader-and-vfx/SKILL.md"
     }
   }
 }
