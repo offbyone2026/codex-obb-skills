@@ -48,6 +48,76 @@
       "source": "poorvith-mp/skills-gamedev",
       "scope": "26 项工程技能（blender 建模动画/构建流水线/性能/反作弊/版本控制/变现）",
       "trigger": "建模|构建|性能|反作弊|版本控制"
+    },
+    "video-generation": {
+      "name": "video-generation",
+      "source": "OffByOne Studio 自研（Sora MCP 官方 Sora 2 API）",
+      "scope": "视频生成/剪辑/宣传片：文生视频、图生视频、remix、参数与轮询",
+      "trigger": "视频|宣传片|Sora|图生视频|remix|过场动画",
+      "package": "skills/video-generation/SKILL.md"
+    },
+    "game-asset-pipeline": {
+      "name": "game-asset-pipeline",
+      "source": "OffByOne Studio 自研（Ludo MCP）",
+      "scope": "素材批量生成：sprite/图标/UI/贴图、图转3D、动画、短视频、音效/BGM/配音/TTS",
+      "trigger": "素材|精灵图|3D模型|动画|音效|配音|TTS",
+      "package": "skills/game-asset-pipeline/SKILL.md"
+    },
+    "pixel-art-design": {
+      "name": "pixel-art-design",
+      "source": "OffByOne Studio 自研",
+      "scope": "像素画规范：画布/调色板/描边/明暗、spritesheet 帧规则、引擎接入",
+      "trigger": "像素画|像素风|spritesheet|调色板|帧动画|retro",
+      "package": "skills/pixel-art-design/SKILL.md"
+    },
+    "game-audio-design": {
+      "name": "game-audio-design",
+      "source": "OffByOne Studio 自研",
+      "scope": "音频规格（SFX/BGM/环境/语音）、风格定调、批量生成（Ludo）、引擎 Bus 接入",
+      "trigger": "音效|BGM|背景音乐|配音|音频设计|声音风格",
+      "package": "skills/game-audio-design/SKILL.md"
+    },
+    "game-localization": {
+      "name": "game-localization",
+      "source": "OffByOne Studio 自研",
+      "scope": "文本提取/key 规范/locale 文件/文化适配/质检清单",
+      "trigger": "本地化|翻译|多语言|i18n|文案适配",
+      "package": "skills/game-localization/SKILL.md"
+    },
+    "level-design": {
+      "name": "level-design",
+      "source": "OffByOne Studio 自研",
+      "scope": "关卡目标/流程节奏/难度曲线/灰盒验证/试玩迭代",
+      "trigger": "关卡设计|地图布局|难度曲线|流程设计|副本",
+      "package": "skills/level-design/SKILL.md"
+    },
+    "playtesting": {
+      "name": "playtesting",
+      "source": "OffByOne Studio 自研",
+      "scope": "测试准备/会话观察/问题分级(SABC)/反馈闭环/报告模板",
+      "trigger": "测试|试玩|QA|bug|内测|反馈",
+      "package": "skills/playtesting/SKILL.md"
+    },
+    "performance-optimization": {
+      "name": "performance-optimization",
+      "source": "OffByOne Studio 自研",
+      "scope": "先剖析后优化：Godot/Unity 性能清单、内存/加载/绘制调用预算",
+      "trigger": "性能|卡顿|帧率|profiling|帧耗时|优化",
+      "package": "skills/performance-optimization/SKILL.md"
+    },
+    "steam-release": {
+      "name": "steam-release",
+      "source": "OffByOne Studio 自研",
+      "scope": "Steamworks：商店页资产/文案/构建/depot/分支/成就/发布清单",
+      "trigger": "Steam|商店页|发布|depot|Steamworks|发行",
+      "package": "skills/steam-release/SKILL.md"
+    },
+    "indie-project-planning": {
+      "name": "indie-project-planning",
+      "source": "OffByOne Studio 自研",
+      "scope": "GDD 骨架/里程碑(PreProd-Alpha-Beta-Gold)/任务拆解/风险登记（5 人团队）",
+      "trigger": "项目规划|GDD|里程碑|排期|需求拆分|范围",
+      "package": "skills/indie-project-planning/SKILL.md"
     }
   }
 }
