@@ -31,9 +31,11 @@
 
 ## 如何保证“即使不指定也一定被找到”（三步）
 
-1. **标准包格式**：每个技能写成 `skills/<name>/SKILL.md`，frontmatter 写清 `name` + `description`，正文是完整工作流指令。仓库内 10 个新技能包已按此格式编写。
+1. **标准包格式**：每个技能写成 `skills/<name>/SKILL.md`，frontmatter 写清 `name` + `description`，正文是完整工作流指令。仓库内技能包已按此格式编写。
 2. **description 就是触发信号**：写成 “Use when …” 条件句，触发关键词前置、范围边界明确。因为初始列表可能被截短，**描述前 40 字内必须包含最高频触发词**。
 3. **AGENTS.md 常驻索引兜底**：Codex 每次会话都会读取 AGENTS.md（与任务无关、恒定加载）。把“已安装技能总表（名称 + 何时用）”写进用户级 `~/.codex/AGENTS.md`（模板见本仓 `AGENTS.md`），即使某条 description 匹配失败，Agent 也能从常驻索引里看到并主动去翻对应技能。
+
+> ⚠️ 大库注意：本仓库技能总量已达 1153 条，全部注入会超出 8000 字符预算被截短/省略。因此**默认只自动安装 core=true 的 904 条**；core=false 的 249 条作为可选 skill 集按需安装。客户端部署时按 core 字段过滤，避免初始列表过载。
 
 ## 客户端 obb_agent.py 集成建议
 
@@ -44,15 +46,18 @@
 #    写入 C:\Users\<user>\.codex\skills\<name>\
 # 3. 生成/更新用户级技能索引：
 #    把 skills.json 的 name+trigger 渲染为 C:\Users\<user>\.codex\AGENTS.md 的“可用技能”章节
+#    （只渲染 core=true 条目；core=false 在“安装可选 skill 集”时再部署）
 # 4. 重启 Codex（技能变更需重启会话生效）
 ```
 
 注意：
 - 同名技能不合并，两个都会出现在选择器里——命名避免与官方内置冲突；
-- 技能总量控制在合理范围（几十个以内），避免初始列表被截短/省略；
+- 外部收录技能统一使用 `源标识-技能名` 前缀命名，避免跨源重名；
 - 更新后重启 Codex 才生效。
 
-## 本仓库技能包一览（18 个）
+## 本仓库技能包一览
+
+### 自研核心包（18 个，core=true）
 
 | 技能 | 触发场景（description 要点） |
 |------|------------------------------|
@@ -74,3 +79,10 @@
 | game-jam-workflow | Game Jam 48-72h 冲刺流程与提交清单 |
 | narrative-design | 叙事/剧情/对话/世界观设计 |
 | shader-and-vfx | 着色器与特效（GLSL/后处理/粒子/Instancing） |
+
+### 外部收录包（1127 个，core 分级见 skills.json）
+
+- **core=true 自动安装（878 条）**：go-to-market(286)、web-development(265)、game-development(200)、full-stack-development(67)、engineering-practices(25)、office-documents(20)、engineering-methodology(15)
+- **core=false 可选 skill 集（249 条）**：academic-research(243)、knowledge-management(6)
+
+完整清单与每条 name/description/domain/source 见 [skills.json](skills.json)。
