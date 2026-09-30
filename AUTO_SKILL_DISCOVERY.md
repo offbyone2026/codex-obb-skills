@@ -52,7 +52,7 @@
 - 技能总量控制在合理范围（几十个以内），避免初始列表被截短/省略；
 - 更新后重启 Codex 才生效。
 
-## 本仓库技能包一览（10 个）
+## 本仓库技能包一览（18 个）
 
 | 技能 | 触发场景（description 要点） |
 |------|------------------------------|
@@ -66,3 +66,11 @@
 | performance-optimization | 性能剖析与优化 |
 | steam-release | Steam 商店页/构建/上传/发布 |
 | indie-project-planning | 项目规划/GDD/里程碑 |
+| combat-system-design | 战斗系统：攻击图/命中检测/伤害管线/打击感/平衡 |
+| multiplayer-networking | 多人联机：权威服务器/同步/延迟补偿/反作弊 |
+| godot-4-specialist | Godot 4 专精：架构/信号/状态机/2D 像素/C# |
+| unity-ecs-specialist | Unity ECS/DOTS 数据导向架构 |
+| engine-selection | 引擎与技术栈选型决策树 |
+| game-jam-workflow | Game Jam 48-72h 冲刺流程与提交清单 |
+| narrative-design | 叙事/剧情/对话/世界观设计 |
+| shader-and-vfx | 着色器与特效（GLSL/后处理/粒子/Instancing） |

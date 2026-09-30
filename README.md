@@ -38,6 +38,6 @@ Codex 官方 **Agent Skills** 机制：每次会话自动把已安装技能的 n
 | [game-studios.md](game-studios.md) | 全流程游戏工作室技能集（49 agents/73 skills） |
 | [game-development-orchestrator.md](game-development-orchestrator.md) | 按平台/维度路由的游戏开发编排技能 |
 | [skills-gamedev.md](skills-gamedev.md) | 26 项游戏开发工程技能（建模/构建/反作弊/版本控制） |
-| [skills.json](skills.json) | 汇总清单（含 10 个自研技能包，供客户端自动部署） |
+| [skills.json](skills.json) | 汇总清单（含 18 个自研技能包，供客户端自动部署） |
 
 > 客户端部署：拉取 skills.json → 下载 `skills/<name>/SKILL.md` 到 `~/.codex/skills/<name>/` → 生成 AGENTS.md 索引 → 重启 Codex 生效。

@@ -18,6 +18,14 @@
 | performance-optimization | 性能优化、卡顿、帧率、剖析、profiling、内存 |
 | steam-release | Steam、商店页、构建、上传、发行、成就、更新 |
 | indie-project-planning | 项目规划、GDD、里程碑、需求拆分、排期 |
+| combat-system-design | 战斗、伤害、命中、hitbox、打击感、连招、平衡、combat |
+| multiplayer-networking | 联机、多人、netcode、同步、匹配、matchmaking、延迟补偿、反作弊 |
+| godot-4-specialist | Godot、GDScript、场景架构、信号、状态机、tilemap、像素渲染、Mono、C# |
+| unity-ecs-specialist | Unity、ECS、DOTS、Burst、JobSystem、数据导向、批量实体 |
+| engine-selection | 引擎选择、技术选型、which engine、用什么引擎 |
+| game-jam-workflow | Game Jam、游戏开发挑战赛、48小时、72小时、jam、冲刺、itch |
+| narrative-design | 剧情、叙事、对话、世界观、角色设定、narrative、story、dialogue |
+| shader-and-vfx | shader、GLSL、着色器、特效、VFX、后处理、bloom、粒子、流光 |
 
 ## 引擎/工具路由（MCP）
 
